@@ -1,0 +1,8 @@
+---
+- type: replace
+  path: /vm_extensions/-
+  value: 
+  - name: jenkins-pool
+    cloud_properties:
+      backend_service: 
+        name: ((env))-router-lb
