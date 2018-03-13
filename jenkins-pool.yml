@@ -4,6 +4,6 @@
   value: 
   - name: jenkins-pool
     cloud_properties:
-      backend_service: dev-build-create-router-lb
+      backend_service: jenkins-router-lb
       tags:
-      - dev-build-create-router-lb
+      - jenkins-router-lb
