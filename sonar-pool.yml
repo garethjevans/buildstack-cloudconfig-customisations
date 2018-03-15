@@ -1,0 +1,9 @@
+---
+- type: replace
+  path: /vm_extensions/-
+  value: 
+  - name: sonar-pool
+    cloud_properties:
+      backend_service: sonar-router-lb
+      tags:
+      - sonar-router-lb
