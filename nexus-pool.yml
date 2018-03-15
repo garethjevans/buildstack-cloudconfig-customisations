@@ -1,0 +1,9 @@
+---
+- type: replace
+  path: /vm_extensions/-
+  value: 
+  - name: nexus-pool
+    cloud_properties:
+      backend_service: nexus-router-lb
+      tags:
+      - nexus-router-lb
