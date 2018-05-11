@@ -1,9 +1,0 @@
----
-- type: replace
-  path: /vm_extensions/-
-  value: 
-  - name: uaa-pool
-    cloud_properties:
-      backend_service: uaa-router-lb
-      tags:
-      - uaa-router-lb
